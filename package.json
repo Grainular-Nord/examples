@@ -1,0 +1,10 @@
+{
+    "name": "@grainular/nord-examples",
+    "private": true,
+    "type": "module",
+    "workspaces": ["examples/*"],
+    "scripts": {
+        "build": "npm run build:example --workspaces --if-present"
+    },
+    "packageManager": "npm@11.6.0"
+}
